@@ -1,6 +1,12 @@
 @import url("./reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+:root {
+    --qara-reng: #222;
+    --ag-reng:#fff;
+    --spandaki-reng:#FF8A56;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -24,11 +30,15 @@ a{
     display: none;
 }
 
+.nav-links a {
+    cursor: not-allowed;
+}
+
 
 /* MEDIA QUERY */
 
 @media(max-width:768px){
-    .header{
+    header.header{
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -36,18 +46,101 @@ a{
     .nav-links{
         display: none;
         font-size: 24px;
-        cursor: pointer;
     }
+
+   
     
     .fa-bars{
         display: block;
+        cursor: pointer;
     }
 
 }
 
 @media(max-width:576px){
-    .header {
+    header.header {
         padding-left: 20px;
         padding-right: 20px;
     }
 }
+
+
+/* TEQDIMAT HISSESI BASLAYIR */
+.teqdimat {
+    display: flex;
+    /* flex-direction: row; */
+    padding-left: 113px;
+    padding-right: 112.5px;
+}
+
+
+.sol-teref {
+    background-color: yellow;
+    padding-top: 117px;
+    
+}
+
+.sag-teref {
+    background-color: teal;
+    padding-top: 70px;
+}
+
+.teqdimat h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.sag-teref img {
+    width: 100%;
+}
+.teqdimat h1 span {
+    /* variable deyishen */
+    color: var(--spandaki-reng);
+}
+
+.teqdimat p {
+    margin-top: 34px;
+    margin-bottom: 24px;
+    /* margin: 34px 0; */
+}
+
+
+.teqdimat button {
+    width: 151px;
+    height: 58px;
+    background:var(--qara-reng);
+    color:var(--ag-reng);
+}
+
+.teqdimat a {
+    padding-left: 20px;
+}
+
+@media(max-width:1180px) {
+    .teqdimat {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media(max-width:1080px) {
+    .teqdimat {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+@media(max-width:992px) {
+    .teqdimat h1 {
+        font-size: 42px;
+    }
+}
+
+
+@media(max-width:768px) {
+    .teqdimat {
+        flex-direction: column;
+    }
+}
+/* TEQDIMAT HISSESI BITIR */
