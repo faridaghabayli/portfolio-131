@@ -75,13 +75,11 @@ a{
 
 
 .sol-teref {
-    background-color: yellow;
     padding-top: 117px;
     
 }
 
 .sag-teref {
-    background-color: teal;
     padding-top: 70px;
 }
 
@@ -144,3 +142,41 @@ a{
     }
 }
 /* TEQDIMAT HISSESI BITIR */
+
+/* PARTYOR SECTION START */
+
+.trusted-section h6 {
+    text-align: center;
+
+}
+
+.trusted-companies {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+
+/* pseudo class */
+
+/* :nth-child(1) :first-child :last-child */
+
+
+@media(max-width:768px) {
+    /* .trusted-company:nth-child(3),
+    .trusted-company:nth-child(4) {
+        display: none;
+    } */
+
+    .trusted-company:nth-child(even) {
+        display: none;
+    }
+
+    /* odd tek even cut */
+}
+
+@media(max-width:576px) {
+    .trusted-company:nth-child(2) {
+        display: none;
+    }
+}
+/* PARTYOR SECTION END */
