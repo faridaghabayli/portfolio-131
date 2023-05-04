@@ -1,0 +1,17 @@
+[33mcommit 532177e1de2fc518d2c29b6d366b92ac725b0fa0[m[33m ([m[1;36mHEAD -> [m[1;32mpartnyorlar[m[33m, [m[1;31morigin/partnyorlar[m[33m)[m
+Author: faridaghabayli <farid.aghabayli21@gmail.com>
+Date:   Mon May 1 20:02:15 2023 +0400
+
+    Partnyorlar hissesi yaradildi ve pseudo classlar tedris edildi (:nth-child)
+
+[33mcommit 8dd09cb454930873e1789e6a586c717ac1f73f41[m[33m ([m[1;31morigin/teqdimat-hissesi[m[33m, [m[1;32mteqdimat-hissesi[m[33m)[m
+Author: faridaghabayli <farid.aghabayli21@gmail.com>
+Date:   Thu Apr 27 20:46:59 2023 +0400
+
+    Layihenin merkezi hiisesi yaradildi ve tam responsivdir (optimal variant)
+
+[33mcommit 5a6d0c9f3eb82945346b99a933f45151968564fe[m[33m ([m[1;31morigin/navbar-hissesi[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mnavbar-hissesi[m[33m)[m
+Author: rahibgasimli <rahib8425@gmail.com>
+Date:   Wed Apr 26 23:44:44 2023 +0400
+
+    Logo Ortada Qalir
